@@ -17,11 +17,11 @@ variable "availability_zones" {
   default = ["us-east-2a", "us-east-2b"]
 }
 variable "ubuntuami" {
-  default = "ami-07b068f843ec78e72"
+  default = "ami-00399ec92321828f5"
 }
 variable "redhatami" {
-  default = "ami-054965c6cd7c6e462"
+  default = "ami-0ba62214afa52bec7"
 }
 variable "key_name" {
-  default = "tf"
+  default = "key23"
 }
